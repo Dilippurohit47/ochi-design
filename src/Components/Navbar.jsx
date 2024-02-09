@@ -41,7 +41,7 @@ const Navbar = () => {
           (item, index) => (
             <>
               <div
-                className={`   flex  flex-col overflow-hidden  transition-all ease-in duration-[1]   cursor-pointer h-[3.5vh] group ${
+                className={`   flex  flex-col   transition-all ease-in duration-[1]   cursor-pointer h-[3.5vh] group ${
                   index == 4 && "w-[5vw] ml-[19vw]"
                 } `}
               >
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <br />
                 <p
                   className={`h-[1px] group-hover:translate-x-[0] w-[auto] mt-[-3vh]  transition-all ease-in-out duration-[0.4s] bg-[#fffffffc] text-[#ffffff00] translate-x-[-4.5vw] ${
-                    index === 4 && "w-[5vw]  ml-[0vw] translate-x-[-10.5vw]"
+                    index === 4 && "w-[5vw]  ml translate-x-[-5.5vw]"
                   } `}
                 >
                   w
