@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test{
+transition: ease;
+    animation: animate 10s linear  infinite ;
+
+}
+
+@keyframes  animate {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+.bg-image{
+    background-image: url("../src/assets/Top-Viewbbcbv-1-scaled.jpg");
+}
+
+.Design-image{
+    background-image: url("../src/assets/new\ design.jpg");
+    object-fit: cover;
+}
