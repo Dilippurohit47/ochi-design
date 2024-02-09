@@ -5,8 +5,10 @@ const Eye = () => {
     const [rotate , setrotate] = useState(0)
     const [deltaX, setDeltaX] = useState(0);
     const [deltaY, setDeltaY] = useState(0);
-    useEffect(() =>{
 
+
+    
+    useEffect(() =>{
         window.addEventListener("mousemove",(e) =>{
             let mouseX  = e.clientX;
             let mouseY= e.clientY;

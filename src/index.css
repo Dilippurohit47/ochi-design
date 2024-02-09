@@ -23,6 +23,12 @@ transition: ease;
 }
 
 .Design-image{
-    background-image: url("../src/assets/new\ design.jpg");
+    background-image: url("./Components/newdesign.jpg");
     object-fit: cover;
+}
+
+.cursor{
+    background-color: rgba(183, 183, 183, 0.5);
+    filter: blur(60px);
+    transition: ease-in-out ;
 }
